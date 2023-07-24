@@ -16,8 +16,7 @@ import uvicorn
 
 from gradio.exceptions import ServerFailedToStartError
 from gradio.routes import App
-# from gradio.tunneling import Tunnel
-from gradio.tunneling import create_tunnel
+from gradio.tunneling import Tunnel
 
 if TYPE_CHECKING:  # Only import for type checking (to avoid circular imports).
     from gradio.blocks import Blocks
